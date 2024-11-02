@@ -1,6 +1,6 @@
 {
   "name": "top-used-chars",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "常用的中英文字符",
   "main": "index.js",
   "types": "index.d.ts",
@@ -15,6 +15,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/linkary/top-used-chars.git"
+    "url": "git+https://github.com/linkary/top-used-chars.git"
   }
 }
