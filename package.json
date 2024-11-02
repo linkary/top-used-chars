@@ -1,0 +1,13 @@
+{
+  "name": "top-used-chars",
+  "version": "1.0.0",
+  "description": "常用的中英文字符",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "keywords": [
+    "font min",
+    "most commonly used characters"
+  ],
+  "author": "linkary",
+  "license": "MIT"
+}
