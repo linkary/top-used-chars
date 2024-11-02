@@ -6,8 +6,15 @@
   "types": "index.d.ts",
   "keywords": [
     "font min",
-    "most commonly used characters"
+    "most commonly used characters",
+    "常用中文",
+    "常用汉字",
+    "常用中英文字符"
   ],
   "author": "linkary",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linkary/top-used-chars.git"
+  }
 }
