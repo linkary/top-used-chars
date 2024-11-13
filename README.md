@@ -22,7 +22,7 @@
 
 ## 使用
 
-可以结合 [fontmin](https://github.com/ecomfe/fontmin) 来做字体裁剪, 绝大多数的在线项目只需用到 `TOP_USED_CHARS` 里的字符
+可以结合 [fontmin](https://github.com/ecomfe/fontmin) 来做字体裁剪, 绝大多数的在线项目只需用到 `TOP_USED_500_CHARS` 里的字符
 
 ```shell
 npm i top-used-chars fontmin -S
@@ -30,11 +30,11 @@ npm i top-used-chars fontmin -S
 
 ```javascript
 import Fontmin from 'fontmin';
-import { TOP_USED_CHARS } from 'top-used-chars';
+import { TOP_USED_500_CHARS } from 'top-used-chars';
 
 const fontmin = new Fontmin().src('path/to/font').use(
   Fontmin.glyph({
-    text: TOP_USED_CHARS,
+    text: TOP_USED_500_CHARS,
   })
     .dest('path/to/output/font')
     .run(function (err, files) {
