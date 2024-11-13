@@ -1,9 +1,9 @@
 {
   "name": "top-used-chars",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "常用的中英文字符",
-  "main": "src/index.js",
-  "types": "src/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "keywords": [
     "font min",
     "most commonly used characters",
